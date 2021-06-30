@@ -20,10 +20,14 @@ html {
   --grey-medium: #D3D9E2;
   --grey-light: #E5EAF1;
 
+  /*Fonts*/
+  --poppins: 'Poppins', sans-serif;
+
   /* 1rem = 16px = 100% */
   font-size: 62.5%;
 }
 body {
+  display: flex;
   height: 100vh;
   background:  var(--background);
 }
