@@ -7,7 +7,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 #room header .buttons {
   display: flex;
@@ -16,16 +15,16 @@
   margin-right: 0.8rem;
   padding: 1.3rem 1.6rem;
 }
-#room header .buttons .button:nth-child(1) img{
-  margin: 1rem;  
+#room header .buttons .button:nth-child(1) img {
+  margin: 1rem;
   width: 2rem;
   height: 2rem;
 }
 #room header .buttons .button:nth-child(2) {
   padding: 1.3rem 3.2rem;
 }
-#room header .buttons .button:nth-child(2) img{
-  margin: 1rem;  
+#room header .buttons .button:nth-child(2) img {
+  margin: 1rem;
   width: 2rem;
   height: 2rem;
 }
@@ -49,7 +48,7 @@
 #question-form form textarea {
   resize: none;
   background: transparent;
-  
+
   width: 100%;
 
   outline: none;
@@ -62,7 +61,7 @@
   align-items: center;
   justify-content: space-between;
 }
-#question-form form footer > div{
+#question-form form footer > div {
   display: flex;
   align-items: center;
 
@@ -71,11 +70,52 @@
   font-weight: 400;
   font-size: 1.4rem;
 }
-#question-form form footer > div img{
+#question-form form footer > div img {
   margin-right: 0.9rem;
 }
 #question-form form footer button {
   height: auto;
   padding: 0.8rem 2.4rem;
   line-height: 2.4rem;
+}
+/*Questions*/
+.question-wrapper {
+  background: var(--light-blue);
+  margin-bottom: 0.8rem;
+  border-radius: 0 0.8rem 0.8rem 0.8rem;
+  padding: 2.4rem;
+}
+.question-wrapper .question-content {
+  display: flex;
+  align-items: center;
+}
+.question-wrapper .question-content .user{
+  background: var(--blue);
+  clip-path: circle();
+  padding: 1.4rem;
+}
+.question-wrapper .question-content p{
+  margin-left: 1.6rem;
+}
+.question-wrapper .actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.question-wrapper .actions > a{
+  display: flex;
+  align-items: center;
+}
+.question-wrapper .actions > a > img{
+  margin-right: 0.8rem;
+}
+.question-wrapper .actions > a:nth-child(2){
+  margin-left: 2.4rem;
+}
+/*READ*/
+.question-wrapper.read {
+  background: var(--grey-opacit);
+}
+.question-wrapper.read .question-content .user{
+  background: var(--grey-blue);
 }
