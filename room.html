@@ -8,6 +8,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/room.css" />
+    <link rel="stylesheet" href="styles/modal.css">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -83,7 +84,7 @@
                   <img src="assets/AvatarV.svg" alt="Avatar" />
                 </div>
                 <div class="question">
-                  <p>Oque e script ?</p>
+                  <p>O que e script ?</p>
                 </div>
               </div>
               <div class="actions">
@@ -103,7 +104,13 @@
                   <img src="assets/AvatarV.svg" alt="Avatar" />
                 </div>
                 <div class="question">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, nesciunt accusantium. Eius repellendus molestiae sapiente provident in numquam suscipit facere, quam consectetur consequuntur labore debitis ipsa iure, ut esse inventore.</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Illum, nesciunt accusantium. Eius repellendus molestiae
+                    sapiente provident in numquam suscipit facere, quam
+                    consectetur consequuntur labore debitis ipsa iure, ut esse
+                    inventore.
+                  </p>
                 </div>
               </div>
               <div class="actions">
@@ -123,7 +130,7 @@
                   <img src="assets/AvatarV.svg" alt="Avatar" />
                 </div>
                 <div class="question">
-                  <p>Oque e script ?</p>
+                  <p>O que e Typescript ?</p>
                 </div>
               </div>
               <div class="actions">
@@ -135,6 +142,23 @@
           </div>
         </section>
       </main>
+    </div>
+
+    <!--Modal-->
+    <div class="modal-wrapper">
+      <div class="modal">
+        <h2>Excluir</h2>
+        <p>Tem certeza que voce deseja excluir esta pagina</p>
+        <form action="#">
+          <label for="password">Digite sua senha</label>
+          <input type="password" name="password" id="password" placeholder="Digite sua senha">
+
+          <div class="buttons">
+            <div class="button">Cancelar</div>
+            <button type="submit">Sim excluir</button>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
