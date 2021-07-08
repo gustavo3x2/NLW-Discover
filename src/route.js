@@ -9,7 +9,7 @@ route.get('/create-pass', (req, res) => res.render("index", {page: 'create-pass'
 
 route.get('/room/:room', (req, res) => res.render("room"))
 //formato do formulario da modal
-route.post('/room/:room/:question/:action', QuestionConttroler.index )
-route.post('/room/create-room', RoomController.create)
+route.post('/question/:room/:question/:action', QuestionConttroler.index )
+route.post('/create-room', RoomController.create)
 
 module.exports = route
