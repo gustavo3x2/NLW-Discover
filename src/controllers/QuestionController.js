@@ -7,5 +7,6 @@ module.exports = {
 
     console.log(`room = ${roomId}, questionId = ${questionId}, ação = ${action},
     senha = ${password}`);
-  }
+  },
+  
 }
